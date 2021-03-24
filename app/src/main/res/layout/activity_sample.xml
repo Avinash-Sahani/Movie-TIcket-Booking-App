@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sample">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:textColor="@color/black"
+        android:id="@+id/name"
+        android:text="Avii"
+        android:textSize="14sp"
+
+            ></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:textColor="@color/black"
+        android:id="@+id/director"
+        android:layout_below="@+id/name"
+
+        ></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:textColor="@color/black"
+        android:id="@+id/rating"
+        android:layout_below="@id/director"
+
+        ></TextView>
+
+</RelativeLayout>

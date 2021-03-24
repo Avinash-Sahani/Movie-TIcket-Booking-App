@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/yellow"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:id="@+id/timing"
+
+            />
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:id="@+id/days"
+
+            />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/timebutton"
+        android:layout_width="147dp"
+        android:layout_height="36dp"
+
+
+        android:layout_gravity="end|bottom"
+        android:background="@color/black"
+        android:fontFamily="@font/g_bold"
+        android:padding="5dp"
+        android:paddingLeft="20dp"
+
+android:layout_marginTop="30dp"
+        android:paddingRight="20dp"
+        android:text="Pay Now"
+        android:textAllCaps="false"
+        android:textColor="@color/yellow"
+        android:textSize="14dp"
+        ></Button>
+</LinearLayout>
+
+
